@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Lato:wght@300&display=swap');
+
+body {
+    background-position: 0in;
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+    background-color: #ede4df8f;
+    overflow: scroll;
+    word-wrap: break-word;
+    min-height: 100vh;
+    position: relative;
+    padding-bottom: 58px;
+}
+
+nav {
+	padding: 1rem;
+    background-color:hsl(0, 23%, 95%);
+    text-align: right;
+    box-sizing: border-box;
+}
+
+nav > a {
+	    text-decoration: none;
+	    color: #3a3a3a;
+	    border-left: 1px solid;
+        padding: 5px 10px;
+}
+
+nav > a:hover {
+              color: silver;
+}
+
+h1 {
+    font-family: 'Lucida Sans', sans-serif;
+    color: rgba(0, 0, 0, 0.284);
+    text-align: center;
+    text-transform: none;
+    letter-spacing: 0px;
+}
+
+h2 {
+    color:rgb(121, 101, 77);
+    font-family: Caveat, sans-serif;
+    text-align: center;
+    letter-spacing: 0px;
+}
+
+#start {
+       height: 500px;
+       position: relative;
+       overflow: hidden;
+       text-align: center;
+       width: 100%;
+}
+.first-pic {
+           float: none;
+           margin-right: 200px;
+           margin-left: 80px;
+          
+}
+.about {
+    margin: 100px;
+    
+}
+.story {
+    margin: 100px;
+    float: left;
+}
