@@ -1,0 +1,11 @@
+body {
+    background-color: black;
+}
+.yellow {
+    background-color:blanchedalmond;
+}
+img {
+    height: 300px;
+    width: 200px;
+    float: left;
+}
