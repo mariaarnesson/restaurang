@@ -9,18 +9,20 @@ body {
     min-height: 100vh;
     position: relative;
     padding-bottom: 58px;
+    
 }
 
 nav {
 	padding: 1rem;
-    background-color:hsl(0, 23%, 95%);
+    background-color:rgb(121, 101, 77);
     text-align: right;
+
     
 }
 
 nav > a {
 	    text-decoration: none;
-	    color: #3a3a3a;
+	    color:antiquewhite;
 	    
         padding: 5px 10px;
 }
@@ -67,10 +69,33 @@ h2 {
 }
 img {
     width: 400px;
-    height: 200px;
+    height: 300px;
     border: 2px solid;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+    justify-content: space-between;
+    margin: 5px;
+    margin-left: 500px;
+    margin-top: -272px;
+}
+div {
+    width: 400px;
+    height: 300px;
+    
 }
 .container {
     margin-top: 20px;
+}
+.place_of_image {
+    margin: 30px;
+    margin-left: 159px;
+    margin-top: -107px;
+    display: initial;
+}
+.color.blue {
+    background-color:rgba(80, 63, 42, 0.312);
+    display: inline;
+    height: 500px;
+}
+section {
+    margin: 100px;
 }
