@@ -14,7 +14,8 @@ body {
 
 nav {
 	padding: 1rem;
-    background-color:rgba(80, 63, 42, 0.312);
+    
+    background-color: rgba(0, 0, 0, .6);
     text-align: right;
 
     
@@ -57,9 +58,9 @@ h2 {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    margin: 70px;
+    
     overflow: hidden;
-    width: 1152px;
+    width: 1500px;
     height: 321px;
    
           
@@ -77,6 +78,9 @@ h2 {
     margin: 100px;
     
 }
+.chef {
+    margin: 100px;
+}
 .story {
     margin: 100px;
     float: left;
@@ -89,7 +93,7 @@ h2 {
     justify-content: space-between;
     margin: 5px;
     margin-left: 550px;
-    margin-top: -164px;
+    margin-top: -265px;
 }
 .foto {
     width: 400px;
@@ -118,14 +122,34 @@ div {
 .color.blue {
     
     display: inline;
-    margin-top: 100px;
-    height: 500px;
-    background-color: rosybrown;
+   margin-top: 100px;
+    
+    background-color:rgba(80, 63, 42, 0.312);
+    
     width: 980px;
     margin: 70px;
 }
 section {
-    height: 500px;
-    margin: 100px;
-    background-color:rgba(80, 63, 42, 0.312);
+    height: 340px;
+    margin: 150px;
+   
+}
+.like {
+    text-align: center;
+    display: inline-flex;
+    width: 900px;
+    margin: -76px;
+}
+
+.like > li {
+    display: inline;
+    
+}
+
+.like i {
+    font-size: 550%;
+    margin: 1%;
+    padding: 5%;
+    color: silver;
+    
 }
