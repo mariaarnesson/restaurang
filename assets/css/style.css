@@ -15,13 +15,13 @@ nav {
 	padding: 1rem;
     background-color:hsl(0, 23%, 95%);
     text-align: right;
-    box-sizing: border-box;
+    
 }
 
 nav > a {
 	    text-decoration: none;
 	    color: #3a3a3a;
-	    border-left: 1px solid;
+	    
         padding: 5px 10px;
 }
 
@@ -49,7 +49,12 @@ h2 {
       
 }
 .first-pic {
-    border-radius: 100%;
+    background-image: url(https://images.pexels.com/photos/262978/pexels-photo-262978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
           
 }
 .about {
@@ -59,4 +64,13 @@ h2 {
 .story {
     margin: 100px;
     float: left;
+}
+img {
+    width: 400px;
+    height: 200px;
+    border: 2px solid;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+}
+.container {
+    margin-top: 20px;
 }
