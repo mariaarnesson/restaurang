@@ -45,16 +45,11 @@ h2 {
 }
 
 #start {
-       height: 500px;
-       position: relative;
-       overflow: hidden;
-       text-align: center;
-       width: 100%;
+    border-radius: 20%;
+      
 }
 .first-pic {
-           float: none;
-           margin-right: 200px;
-           margin-left: 80px;
+    border-radius: 100%;
           
 }
 .about {
