@@ -3,19 +3,20 @@
 body {
     background-position: 0in;
     font-family: 'Courier New', Courier, monospace, sans-serif;
-    background-color: #ede4df8f;
+    background-color: whitesmoke;
     overflow: scroll;
     word-wrap: break-word;
     min-height: 100vh;
     position: relative;
     padding-bottom: 58px;
     
+    
 }
 
 nav {
 	padding: 1rem;
     
-    background-color: rgba(0, 0, 0, .6);
+    
     text-align: right;
 
     
@@ -23,7 +24,7 @@ nav {
 
 nav > a {
 	    text-decoration: none;
-	    color:antiquewhite;
+	    color:rgb(121, 101, 77);
 	    
         padding: 5px 10px;
 }
@@ -33,11 +34,12 @@ nav > a:hover {
 }
 
 h1 {
-    font-family: 'Lucida Sans', sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgba(0, 0, 0, 0.284);
     text-align: center;
     text-transform: none;
     letter-spacing: 0px;
+    text-transform: uppercase;
 }
 
 h2 {
@@ -54,11 +56,11 @@ h2 {
       
 }
 .first-pic {
-    background-image: url(https://img.freepik.com/free-photo/restaurant-hall-with-round-square-tables-some-chairs-plants_140725-8031.jpg?w=996&t=st=1672340379~exp=1672340979~hmac=6df8f558fb9fff0b1da7a6a388acf4b086c6b3860157bb045c61eb5005397c74);
+    background-image: url(https://img.freepik.com/free-photo/gold-cutlery-set-black-background_1220-4099.jpg?w=1380&t=st=1672346556~exp=1672347156~hmac=7252f4d43841e176bcb274ccf4adc8aa28a934a350d0516d4139c049d8f03ef5);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    
+    border-radius: 65px;
     overflow: hidden;
     width: 1500px;
     height: 321px;
@@ -67,11 +69,12 @@ h2 {
 }
 .first-pic > h1 {
     color: whitesmoke;
-    font-size: 90px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 70px;
+    font-family: Caveat sans-serif;
     font-style: italic;
-    text-align: left;
+    text-align: right;
     margin-top: 179px;
+    text-transform: none;
 
 }
 .about {
@@ -121,11 +124,9 @@ div {
 }
 .color.blue {
     
-    display: inline;
-   margin-top: 100px;
-    
+   
+    margin-top: 100px;
     background-color:rgba(80, 63, 42, 0.312);
-    
     width: 980px;
     margin: 70px;
 }
@@ -137,8 +138,9 @@ section {
 .like {
     text-align: center;
     display: inline-flex;
-    width: 900px;
+    width: 1400px;
     margin: -76px;
+    justify-content: space-between;
 }
 
 .like > li {
@@ -148,8 +150,65 @@ section {
 
 .like i {
     font-size: 550%;
-    margin: 1%;
-    padding: 5%;
+    margin: 0%;
+    padding: 0%;
     color: silver;
     
+}
+.special_price {
+    width: 250px;
+    height: 150px;
+    margin-left: 60px;
+}
+.special_price:hover {
+    animation: shake 0.35s ease-in-out
+}
+@keyframes shake {
+    0%, 100%{
+      transform: translateX(0);
+    }
+    20%{
+      transform: translateX(-13px);
+    }
+    40%{
+      transform: translateX(13px);
+    }
+    60%{
+      transform: translateX(-8px);
+    }
+    80%{
+      transform: translateX(8px);
+    }
+  
+
+}
+/* social networks */
+
+fotter {
+    float: inline-end;
+    position: absolute;
+    height: 160px;
+    width: 100%;
+    border-top: 1px solid #cdcdcd;
+    display: block;
+    left: 0; 
+}
+
+#social-networks {
+              margin-top: 200px;
+              margin-bottom: 0px;
+              text-align: center;
+              height: 170px;
+              background-color: #3a3a3a;
+}
+#social-networks i {
+                font-size: 160%;
+                margin: 1%;
+                padding: 5%;
+                color: beige;
+}
+#social-networks > div {
+                   display: inline;
+                   color: #a69c95;
+                   text-align: center; 
 }
