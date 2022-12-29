@@ -14,7 +14,7 @@ body {
 
 nav {
 	padding: 1rem;
-    background-color:rgb(121, 101, 77);
+    background-color:rgba(80, 63, 42, 0.312);
     text-align: right;
 
     
@@ -46,18 +46,32 @@ h2 {
     letter-spacing: 0px;
 }
 
+
+
 #start {
     border-radius: 20%;
       
 }
 .first-pic {
-    background-image: url(https://images.pexels.com/photos/262978/pexels-photo-262978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-image: url(https://img.freepik.com/free-photo/restaurant-hall-with-round-square-tables-some-chairs-plants_140725-8031.jpg?w=996&t=st=1672340379~exp=1672340979~hmac=6df8f558fb9fff0b1da7a6a388acf4b086c6b3860157bb045c61eb5005397c74);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    width: 100%;
+    margin: 70px;
     overflow: hidden;
+    width: 1152px;
+    height: 321px;
+   
           
+}
+.first-pic > h1 {
+    color: whitesmoke;
+    font-size: 90px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    text-align: left;
+    margin-top: 179px;
+
 }
 .about {
     margin: 100px;
@@ -67,15 +81,25 @@ h2 {
     margin: 100px;
     float: left;
 }
-img {
+.bild {
+    width: 300px;
+    height: 200px;
+    border: 2px solid;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+    justify-content: space-between;
+    margin: 5px;
+    margin-left: 550px;
+    margin-top: -164px;
+}
+.foto {
     width: 400px;
     height: 300px;
     border: 2px solid;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
     justify-content: space-between;
     margin: 5px;
-    margin-left: 500px;
-    margin-top: -272px;
+    margin-left: 550px;
+    margin-top: -164px;
 }
 div {
     width: 400px;
@@ -86,16 +110,22 @@ div {
     margin-top: 20px;
 }
 .place_of_image {
-    margin: 30px;
-    margin-left: 159px;
-    margin-top: -107px;
+    
+    margin-left: 35px;
+    margin: -45px;
     display: initial;
 }
 .color.blue {
-    background-color:rgba(80, 63, 42, 0.312);
+    
     display: inline;
+    margin-top: 100px;
     height: 500px;
+    background-color: rosybrown;
+    width: 980px;
+    margin: 70px;
 }
 section {
+    height: 500px;
     margin: 100px;
+    background-color:rgba(80, 63, 42, 0.312);
 }
