@@ -3,7 +3,7 @@
 body {
     background-position: 0in;
     font-family: 'Courier New', Courier, monospace, sans-serif;
-    background-color: whitesmoke;
+    background-color:whitesmoke;
     overflow: scroll;
     word-wrap: break-word;
     min-height: 100vh;
@@ -40,13 +40,15 @@ h1 {
     text-transform: none;
     letter-spacing: 0px;
     text-transform: uppercase;
+    font-size: 30px;
 }
 
 h2 {
     color:rgb(121, 101, 77);
     font-family: Caveat, sans-serif;
-    text-align: center;
+    text-align: left;
     letter-spacing: 0px;
+    font-size: 30px;
 }
 
 
@@ -56,7 +58,7 @@ h2 {
       
 }
 .first-pic {
-    background-image: url(https://img.freepik.com/free-photo/gold-cutlery-set-black-background_1220-4099.jpg?w=1380&t=st=1672346556~exp=1672347156~hmac=7252f4d43841e176bcb274ccf4adc8aa28a934a350d0516d4139c049d8f03ef5);
+   
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -64,6 +66,7 @@ h2 {
     overflow: hidden;
     width: 1500px;
     height: 321px;
+    background-image: url(https://img.freepik.com/free-photo/lifestyle-portrait-elegant-young-woman-with-dark-wavy-hairstyle-trendy-makeup-fashionable-beige-pullover-coat-sitting-cafe-terrace-drinking-coffee-from-white-cup_197531-24448.jpg?size=626&ext=jpg);
    
           
 }
@@ -72,13 +75,14 @@ h2 {
     font-size: 70px;
     font-family: Caveat sans-serif;
     font-style: italic;
-    text-align: right;
+    text-align: center;
     margin-top: 179px;
     text-transform: none;
 
 }
 .about {
     margin: 100px;
+    background-image: url(https://img.freepik.com/free-photo/happy-waitress-giving-coffee-customers-while-serving-them-coffee-shop_637285-2335.jpg?w=1060&t=st=1672523035~exp=1672523635~hmac=f173ceb1ba363d921a21d038c66be0b6082d841e9e766946dca4b590c743f517);
     
 }
 .chef {
@@ -122,13 +126,17 @@ div {
     margin: -45px;
     display: initial;
 }
-.color.blue {
-    
-   
+ #color_blue {
     margin-top: 100px;
     background-color:rgba(80, 63, 42, 0.312);
     width: 980px;
     margin: 70px;
+}
+#color_green {
+    margin-top: 100px;
+    background-color: silver;
+    width: 980px;
+    margin: 190px;
 }
 section {
     height: 340px;
@@ -159,8 +167,58 @@ section {
     width: 250px;
     height: 150px;
     margin-left: 60px;
+    
 }
-.special_price:hover {
+
+
+   .flip-card {
+    background-color: transparent;
+    width: 250px;
+    height: 150px;
+    margin-left: 60px;
+    perspective: 1000px;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 250px;
+    height: 150px;
+    margin-left: -60px;
+    text-align: right;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: #aa4e4e36;
+  }
+  .flip-card-back > h1, h2 {
+    text-align: right;
+    margin-left: -60px;
+    font-size: 20px;
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin-left: -60px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  
+  
+  .flip-card-back {
+    width: 250px;
+    height: 150px;
+    margin-left: 60px;
+    transform: rotateY(180deg);
+  }
+
+/*  .special_price:hover {
     animation: shake 0.35s ease-in-out
 }
 @keyframes shake {
@@ -181,7 +239,7 @@ section {
     }
   
 
-}
+} */
 /* social networks */
 
 fotter {
@@ -205,10 +263,76 @@ fotter {
                 font-size: 160%;
                 margin: 1%;
                 padding: 5%;
-                color: beige;
+                color:whitesmoke;
 }
 #social-networks > div {
                    display: inline;
-                   color: #a69c95;
+                   color: #f1edea;
                    text-align: center; 
+}
+
+
+
+button {
+  float: left;
+  background-color:#cdcdcd;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color:#fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+button:hover,
+button:focus {
+  background-color:#3a3a3a47;
+}
+ 
+.special_offers {
+    display: flex;
+    
+    margin: 23px 23px -250px 23px;
+    justify-content: space-between;
+}
+.first > h2 {
+    text-align: left;
+}
+.first {
+    margin-left: 130px;
+}
+.second {
+    margin-top: -316px;
+    margin-left: 659px;
+}
+.third {
+    margin-left: 659px;
+    margin-top: 220px;
+}
+.menu {
+    background-color:#fff;
+    width: 1200px;
+    height: 1200px;
+    border-radius: 20%;
+}
+.menu > h2 {
+    color: brown;
+    font-size: 30px;
 }
