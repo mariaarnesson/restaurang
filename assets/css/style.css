@@ -46,7 +46,7 @@ h1 {
 h2 {
     color:rgb(121, 101, 77);
     font-family: Caveat, sans-serif;
-    text-align: left;
+    text-align: center;
     letter-spacing: 0px;
     font-size: 30px;
 }
@@ -146,8 +146,8 @@ section {
 .like {
     text-align: center;
     display: inline-flex;
-    width: 1400px;
-    margin: -76px;
+    width: 1200px;
+    margin: 12px;
     justify-content: space-between;
 }
 
@@ -190,10 +190,10 @@ section {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     background-color: #aa4e4e36;
   }
-  .flip-card-back > h1, h2 {
+  .flip-card-back > h1, h3 {
     text-align: right;
     margin-left: -60px;
-    font-size: 20px;
+    font-size: 10px;
   }
   
   .flip-card:hover .flip-card-inner {
