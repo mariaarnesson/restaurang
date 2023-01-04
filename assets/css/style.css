@@ -80,6 +80,10 @@ h2 {
     text-transform: none;
 
 }
+.first-pic > h2, p, button {
+    text-align: right;
+    color: whitesmoke;
+}
 .about {
     margin: 100px;
    
@@ -256,8 +260,10 @@ fotter {
               margin-top: 200px;
               margin-bottom: 0px;
               text-align: center;
-              height: 170px;
+              border-top-left-radius: 50%;
               background-color: #3a3a3a;
+              width: 1500px;
+              height: 321px;
 }
 #social-networks i {
                 font-size: 160%;
