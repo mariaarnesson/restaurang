@@ -54,7 +54,7 @@ h2 {
 
 
 #start {
-    border-radius: 20%;
+    border-top-left-radius: 50%;
       
 }
 .first-pic {
@@ -82,7 +82,7 @@ h2 {
 }
 .about {
     margin: 100px;
-    background-image: url(https://img.freepik.com/free-photo/happy-waitress-giving-coffee-customers-while-serving-them-coffee-shop_637285-2335.jpg?w=1060&t=st=1672523035~exp=1672523635~hmac=f173ceb1ba363d921a21d038c66be0b6082d841e9e766946dca4b590c743f517);
+   
     
 }
 .chef {
@@ -146,7 +146,7 @@ section {
 .like {
     text-align: center;
     display: inline-flex;
-    width: 1200px;
+    width: 1300px;
     margin: 12px;
     justify-content: space-between;
 }
@@ -190,10 +190,10 @@ section {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     background-color: #aa4e4e36;
   }
-  .flip-card-back > h1, h3 {
+  .flip-card-back > h1, h4 {
     text-align: right;
     margin-left: -60px;
-    font-size: 10px;
+    font-size: 15px;
   }
   
   .flip-card:hover .flip-card-inner {
@@ -334,5 +334,6 @@ button:focus {
 }
 .menu > h2 {
     color: brown;
-    font-size: 30px;
+    font-size: 15px;
+
 }
