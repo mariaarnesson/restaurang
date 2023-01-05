@@ -13,7 +13,7 @@ body {
     
 }
 
-nav {
+/* nav {
 	padding: 1rem;
     
     
@@ -32,7 +32,7 @@ nav > a {
 nav > a:hover {
               color: silver;
 }
-
+*/
 h1 {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgba(0, 0, 0, 0.284);
@@ -80,10 +80,7 @@ h2 {
     text-transform: none;
 
 }
-.first-pic > h2, p, button {
-    text-align: right;
-    color: whitesmoke;
-}
+
 .about {
     margin: 100px;
    
@@ -263,7 +260,7 @@ fotter {
               border-top-left-radius: 50%;
               background-color: #3a3a3a;
               width: 1500px;
-              height: 321px;
+              height: 366px;
 }
 #social-networks i {
                 font-size: 160%;
@@ -342,4 +339,89 @@ button:focus {
     color: brown;
     font-size: 15px;
 
+}
+header {
+    
+    border-radius: 57px;
+    height: 90px;
+    background-color: #fafafa;
+}
+.inner-width {
+    float: right;
+    max-width: 1000px;
+    padding: 0 10px;
+    margin: auto;
+}
+.logo {
+    float: left;
+    padding: 20px 0;
+}
+.logo img {
+    height: 50px;
+}
+.navigation-menu {
+    float: right;
+    display: flex;
+    align-items: center;
+    min-height: 90px;
+}
+.navigation-menu a {
+    margin-left: 10px;
+    color: #ddd;
+    text-transform:uppercase;
+    font-size: 14px;
+    padding: 12px 20px;
+    border-radius: 4px;
+    transition: .3s linear;
+}
+.navigation-menu a:hover {
+    background-color: #aa4e4e36;
+    color: #2f3640;
+    transform: scale(1.1);
+}
+.navigation-menu i {
+    margin-right: 8px;
+    font-size: 16px;
+}
+.menu-toggle-btn {
+    float: right;
+    height: 90px;
+    line-height: 90px !important;
+    color:#2f3640;
+    font-size: 26px;
+    display: none !important;
+    cursor: pointer;
+}
+@media screen and (max-width: 700px) {
+    .menu-toggle-btn {
+        display: block !important;
+    }
+    .navigation-menu {
+        position: fixed;
+        width: 100%;
+        max-width: 400px;
+        background-color: #3a3a3a47;
+        top: 90px;
+        right: 0;
+        display: none;
+        padding: 20px 40px;
+        box-sizing: border-box;
+    }
+    .navigation-menu::before {
+        content: "";
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-bottom: 10px solid red;
+        position: absolute;
+        top: -10px;
+        right: 10px;
+
+    }
+    .navigation-menu a {
+        display: block;
+        margin: 10px 0;
+    }
+    .navigation-menu.active {
+        display: block;
+    }
 }
