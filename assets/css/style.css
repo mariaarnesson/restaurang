@@ -264,9 +264,25 @@ fotter {
 }
 #social-networks i {
                 font-size: 160%;
-                margin: 1%;
-                padding: 5%;
+                
+             padding: 1%;
                 color:whitesmoke;
+                margin-top: 150px;
+               
+}
+.soc i {
+    font-size: 50%;
+    padding: 1%;
+    color:whitesmoke;
+    margin-top: 50px;
+   
+}
+.soc1  {
+    font-size: 160%;
+    
+    padding: 1%;
+    color:whitesmoke;
+    margin-top: 150px;
 }
 #social-networks > div {
                    display: inline;
@@ -343,7 +359,7 @@ button:focus {
 header {
     
     border-radius: 57px;
-    height: 90px;
+    height: 169px;
     background-color: #fafafa;
 }
 .inner-width {
@@ -367,7 +383,7 @@ header {
 }
 .navigation-menu a {
     margin-left: 10px;
-    color: #ddd;
+    color: brown;
     text-transform:uppercase;
     font-size: 14px;
     padding: 12px 20px;
@@ -383,24 +399,26 @@ header {
     margin-right: 8px;
     font-size: 16px;
 }
-.menu-toggle-btn {
+.fa-bars {
     float: right;
     height: 90px;
     line-height: 90px !important;
     color:#2f3640;
     font-size: 26px;
-    display: none !important;
+    display: inline;
     cursor: pointer;
+    visibility: hidden;
 }
 @media screen and (max-width: 700px) {
-    .menu-toggle-btn {
+    .fa-bars {
         display: block !important;
+        visibility: visible;
     }
     .navigation-menu {
         position: fixed;
         width: 100%;
         max-width: 400px;
-        background-color: #3a3a3a47;
+        background-color: #aa4e4e36;;
         top: 90px;
         right: 0;
         display: none;
@@ -411,7 +429,7 @@ header {
         content: "";
         border-left: 10px solid transparent;
         border-right: 10px solid transparent;
-        border-bottom: 10px solid red;
+        border-bottom: 10px solid silver;
         position: absolute;
         top: -10px;
         right: 10px;
@@ -425,3 +443,7 @@ header {
         display: block;
     }
 }
+ #myCanvas {
+    width: 200px;
+    height: 200px;
+ }
