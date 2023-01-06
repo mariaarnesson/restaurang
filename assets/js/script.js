@@ -6,11 +6,24 @@ $(".menu-toggle-btn").click(function(){
 
 
 
-function draw() {
-    var canvas = document.getElementById("myCanvas");
-    var contex = canvas.getContext("2d");
-    context.strokeSryle = "red";
-    context.fillStyle = "rgba(0, 0, 255, 0.5)";
-    context.fillRect(10,10,100,100);
-    context.strokeRect(10,10,100,100);
-}
+  var currentDateTime = new Date();
+  var year = currentDateTime.getFullYear();
+  var month = (currentDateTime.getMonth() + 1);
+  var date = (currentDateTime.getDate() + 1);
+  
+  if(date < 10) {
+    date = '0' + date;
+  }
+  if(month < 10) {
+    month = '0' + month;
+  }
+  
+  var dateTomorrow = year + "-" + month + "-" + date;
+  var checkinElem = document.querySelector("#choose-date");
+ 
+  
+  checkinElem.setAttribute("min", dateTomorrow);
+  
+  checkinElem.onchange = function () {
+      checkoutElem.setAttribute("min", this.value);
+  }

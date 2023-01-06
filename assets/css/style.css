@@ -113,6 +113,7 @@ h2 {
     margin-left: 550px;
     margin-top: -164px;
 }
+ 
 div {
     width: 400px;
     height: 300px;
@@ -380,6 +381,7 @@ header {
     display: flex;
     align-items: center;
     min-height: 90px;
+    width: 600px;
 }
 .navigation-menu a {
     margin-left: 10px;
@@ -443,7 +445,67 @@ header {
         display: block;
     }
 }
- #myCanvas {
-    width: 200px;
-    height: 200px;
- }
+
+
+/* reservation */
+
+form {
+    width: 1500px;
+    height: 1500px;
+}
+div.elem-group {
+    margin: 30px;
+    width: 300px;
+    height: 60px;
+  }
+  
+  div.elem-group.inlined { 
+    display: inline-block;
+    float: right;
+    margin-left: 20px;
+  }
+  
+  label {
+    display: block;
+    font-family: 'Nanum Gothic';
+    padding-bottom: 10px;
+    font-size: 1.25em;
+  }
+  
+  input, select, textarea {
+    border-radius: 2px;
+    border: 2px solid #777;
+    box-sizing: border-box;
+    font-size: 1.25em;
+    font-family: 'Nanum Gothic';
+    width: 100%;
+    padding: 10px;
+  }
+  
+  div.elem-group.inlined input {
+    width: 95%;
+    display: inline-block;
+  }
+  
+  textarea {
+    height: 250px;
+  }
+  
+  hr {
+    border: 1px dotted #ccc;
+  }
+  
+  button {
+    height: 50px;
+    background: orange;
+    border: none;
+    color: white;
+    font-size: 1.25em;
+    font-family: 'Nanum Gothic';
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    border: 2px solid black;
+  }
