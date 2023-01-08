@@ -33,6 +33,17 @@ nav > a:hover {
               color: silver;
 }
 */
+video {
+margin-left: 70px;
+display: block;
+width: 100%;
+object-fit: cover;
+overflow: hidden;
+height: 100vh;
+width: 1300px;
+height: 458px;
+border-radius: 74px;
+}
 h1 {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgba(0, 0, 0, 0.284);
@@ -361,7 +372,7 @@ header {
     
     border-radius: 57px;
     height: 169px;
-    background-color: #fafafa;
+    background-color:whitesmoke;
 }
 .inner-width {
     float: right;
@@ -444,6 +455,110 @@ header {
     .navigation-menu.active {
         display: block;
     }
+    #color_green {
+        height: 730px;
+        margin-top: 100px;
+        background-color: silver;
+        width: 417px;
+        margin: 115px;
+        margin-bottom: 83px;
+    }
+    .place_of_image {
+        margin-left: 35px;
+        margin: 146px;
+        display: initial;
+        margin-bottom: -23px;
+    }
+    .bild {
+        width: 300px;
+        height: 200px;
+        border: 2px solid;
+        box-shadow: 0 2px 4px rgb(0 0 0 / 60%);
+        justify-content: space-between;
+        margin: 5px;
+        margin-left: 34px;
+        margin-top: 143px;
+    }
+    .chef {
+        margin: 24px;
+    }
+    .about {
+        margin-top: -32px;
+        margin: 100px;
+        margin-top: 32px;
+    }
+    .flip-card {
+        justify-content: space-between;
+        background-color: transparent;
+        width: 74px;
+        height: 80px;
+        margin-left: 60px;
+        perspective: 1000px;
+        display: inline-table;
+    }
+   
+    .special_offers {
+        display: -webkit-inline-box;
+        margin: 34px 101px -5px 59px;
+        justify-content: space-between;
+        width: 500px;
+    }
+    .like {
+        text-align: center;
+        display: inline-flex;
+        width: 587px;
+        margin: -14px;
+        justify-content: space-between;
+    }
+   
+    header {
+        width: 635px;
+        margin-bottom: 50px;
+        border-radius: 57px;
+        height: 169px;
+        background-color: #fafafa;
+    }
+    .about {
+        margin-top: -32px;
+        margin: 23px;
+        margin-top: 32px;
+    }
+    .story {
+        margin: 0px;
+    }
+    .foto {
+        width: 300px;
+        
+        height: 250px;
+        border: 2px solid;
+        box-shadow: 0 2px 4px rgb(0 0 0 / 60%);
+        justify-content: space-between;
+        margin: -4px;
+        margin-left: 43px;
+        margin-top: 17px;
+    }
+    #social-networks {
+        margin-top: 200px;
+        margin-bottom: 0px;
+        text-align: center;
+        border-top-left-radius: 50%;
+        background-color: #3a3a3a;
+        width: 670px;
+        height: 366px;
+    }
+    .first-pic {
+        margin-top: -17px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-radius: 29px;
+        overflow: hidden;
+        width: 536px;
+        height: 247px;
+        background-image: url(https://img.freepik.com/free-photo/lifestyle-portrait-elegant-young-woman-with-dark-wavy-hairstyle-trendy-makeup-fashionable-beige-pullover-coat-sitting-cafe-terrace-drinking-coffee-from-white-cup_197531-24448.jpg?size=626&ext=jpg);
+        margin-left: 40px;
+    }
+   
 }
 
 
@@ -508,4 +623,39 @@ div.elem-group {
   
   button:hover {
     border: 2px solid black;
+
+  }
+.container {
+    padding: 80px 120px;
+  }
+  .person {
+    border: 10px solid transparent;
+    margin-bottom: 25px;
+    width: 80%;
+    height: 80%;
+    opacity: 0.7;
+  }
+  .person:hover {
+    border-color: #f1f1f1;
+  }
+  .item {
+    height: 500px;
+    width: 1200px;
+  }
+  #myCarousel {
+    width: 1200px;
+    height: 500px;
+    margin-top: 425px;
+  
+  }
+  .kall {
+    width: 1200px;
+    margin-top: 0px;
+    height: 500px;
+  }
+  header {
+    height: 500px;
+  }
+  carousel-inner {
+    height: 500px;
   }

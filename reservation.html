@@ -24,6 +24,9 @@
               </nav>
             </div>
           </header>
+          <video preload="auto" playsinline autoplay muted loop data-object-fit="cover" poster="">
+            <source src="https://player.vimeo.com/external/559960987.sd.mp4?s=324a7f478eefb57438117fdcca448e864c57a695&profile_id=165&oauth2_token_id=57447761" type="video/mp4">
+          </video>
           <section>
           <form action="reservation.php" method="post">
             <div class="elem-group">
@@ -37,6 +40,9 @@
             <div class="elem-group">
               <label for="phone">Your Phone</label>
               <input type="tel" id="phone" name="visitor_phone" placeholder="498-348-3872" pattern=(\d{3})-?\s?(\d{3})-?\s?(\d{4}) required>
+            </div>
+            <div class="checkbox">
+              <label><input type="checkbox" name="remember"> Remember me</label>
             </div>
             <hr>
             <div class="elem-group inlined">
@@ -53,7 +59,7 @@
             </div>
            
             <div class="elem-group">
-              <label for="room-selection">Select Room Preference</label>
+              <label for="room-selection">Select Table Preference</label>
               <select id="room-selection" name="room_preference" required>
                   <option value="">Choose a table from the List</option>
                   <option value="connecting">Connecting</option>
