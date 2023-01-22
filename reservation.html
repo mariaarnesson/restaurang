@@ -27,41 +27,30 @@
           <video preload="auto" playsinline autoplay muted loop data-object-fit="cover" poster="">
             <source src="https://player.vimeo.com/external/559960987.sd.mp4?s=324a7f478eefb57438117fdcca448e864c57a695&profile_id=165&oauth2_token_id=57447761" type="video/mp4">
           </video>
-        
-          <body>
-            <div>
-            <div>
-            <h2>Time Open</h2>
-            <h3>Monday-Friday</h3>
-            <p>7am - 11am (breakfast)</p>
-            <p>11am - 10pm (lunch/dinner)</p>
-            <h3>Saturday and sunday</h3>
-            <p>9am - 1am (breakfast)</p>
-            <p>1am - 10pm (lunch/dinner)</p>
-            <hr>
-            <h4>Call Us: (123) 45-45-456</h4>
-            </div>
-            <div>
-            <form action="#">
+        <div>
+          <form action="#">
             <h2>Reservation Online</h2>
             <div>
+            <img src="../restaurang/assets/images/opening hours.png">
+          </div>
+            <div class="elem-group">
             <p>Your Name</p>
             <input type="text" placeholder="Your Name">
             </div>
-            <div>
+            <div class="elem-group">
             <p>Your email</p>
             <input type="email" placeholder="Your email">
             </div>
-            <div>
-            <p>Date</p>
+            <div class="elem-group">
+            <p>Choose the date</p>
             <input type="date">
             </div>
-            <div>
+            <div class="elem-group">
             <p>Time</p>
             <input type="time">
             </div>
-            <div>
-            <p>How many people?</p>
+            <div class="elem-group">
+            <p>No. of guests</p>
             <select name="select" id="#">
             <option value="1">1 person</option>
             <option value="2">2 persons</option>
@@ -71,9 +60,17 @@
             <option value="5+">5+ persons</option>
             </select>
             </div>
-            <button>Submit</button>
+            <div class="elem-group">
+              <p>Select Table Preference</p>
+              <select name="table_preference" required>
+                  <option value="">Choose a table from the List</option>
+                  <option value="connecting">Connecting</option>
+                  <option value="adjoining">Adjoining</option>
+                  <option value="adjacent">Adjacent</option>
+              </select>
+            </div>
+            <button>Book The Table</button>
             </form>
-            </div>
-            </div>
+          </div>    
             </body>
           </html>
