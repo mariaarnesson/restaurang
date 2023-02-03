@@ -27,50 +27,53 @@
           <video preload="auto" playsinline autoplay muted loop data-object-fit="cover" poster="">
             <source src="https://player.vimeo.com/external/559960987.sd.mp4?s=324a7f478eefb57438117fdcca448e864c57a695&profile_id=165&oauth2_token_id=57447761" type="video/mp4">
           </video>
-        <div>
-          <form action="#">
-            <h2>Reservation Online</h2>
-            <div>
-            <img src="../restaurang/assets/images/opening hours.png">
-          </div>
-            <div class="elem-group">
-            <p>Your Name</p>
-            <input type="text" placeholder="Your Name">
-            </div>
-            <div class="elem-group">
-            <p>Your email</p>
-            <input type="email" placeholder="Your email">
-            </div>
-            <div class="elem-group">
-            <p>Choose the date</p>
-            <input type="date">
-            </div>
-            <div class="elem-group">
-            <p>Time</p>
-            <input type="time">
-            </div>
-            <div class="elem-group">
-            <p>No. of guests</p>
-            <select name="select" id="#">
-            <option value="1">1 person</option>
-            <option value="2">2 persons</option>
-            <option value="3">3 persosn</option>
-            <option value="4">4 persons</option>
-            <option value="5">5 persons</option>
-            <option value="5+">5+ persons</option>
-            </select>
-            </div>
-            <div class="elem-group">
-              <p>Select Table Preference</p>
-              <select name="table_preference" required>
-                  <option value="">Choose a table from the List</option>
-                  <option value="connecting">Connecting</option>
-                  <option value="adjoining">Adjoining</option>
-                  <option value="adjacent">Adjacent</option>
+          <div class="login-box">
+            <div class="left-box">
+            <form action="#">
+              <h3>Reservation Online</h3>
+              <div class="elem-group">
+              <p>Your Name</p>
+              <input type="text" placeholder="Your Name">
+              </div>
+              <div class="elem-group">
+              <p>Your email</p>
+              <input type="email" placeholder="Your email">
+              </div>
+              <div class="elem-group">
+              <p>Choose the date</p>
+              <input type="date">
+              </div>
+              <div class="elem-group">
+              <p>Time</p>
+              <input type="time">
+              </div>
+              <div class="elem-group">
+              <p>No. of guests</p>
+              <select name="select" id="#">
+              <option value="1">1 person</option>
+              <option value="2">2 persons</option>
+              <option value="3">3 persosn</option>
+              <option value="4">4 persons</option>
+              <option value="5">5 persons</option>
+              <option value="5+">5+ persons</option>
               </select>
+              </div>
+              <div class="elem-group">
+                <p>Select Table Preference</p>
+                <select name="table_preference" required>
+                    <option value="">Choose a table from the List</option>
+                    <option value="connecting">Family table</option>
+                    <option value="adjoining">Outdoor seating</option>
+                    <option value="adjacent">Table for two</option>
+                    <option value="adjacent">Table on second floor (sea view)</option>
+                </select>
+                </form>
+              </div>
+              <button>Book The Table</button>
+             
+        
             </div>
-            <button>Book The Table</button>
-            </form>
-          </div>    
-            </body>
+            <div class="right-box"></div>    
+          
+            </div>
           </html>
